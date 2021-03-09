@@ -15,4 +15,4 @@ A simple REST API with NodeJS, MongoDB and ExpressJS
 - Create the auth controller to register users in database
 - Create system to encrypt the password, and manually disable the return of password in the request
 
-[] auth with JWT :: pending (#2 ++)
+[] auth with JWT :: pending (#2 ++) [verify 'token invalid']

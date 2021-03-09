@@ -9,6 +9,7 @@ app.use(bodyParser.urlencoded({ extended: false }))
 
 // Repassando o objeto 'app', para que possa ser usado em outros arquivos de minha aplicação
 require('./controllers/auth.controller')(app)
+require('./controllers/project.controller')(app)
 
 app.listen(3000, () => {
     console.log(`Server is running in the port: ${PORT}`)
