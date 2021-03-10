@@ -1,6 +1,6 @@
 {
   "name": "nodejs-rest-api",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A simple REST API with NodeJS, EsxpressJS and JWT",
   "main": "index.js",
   "scripts": {
