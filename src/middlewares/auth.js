@@ -14,11 +14,11 @@ module.exports = (req, res, next) => {
 
     const [ scheme, token ] = parts
 
-    if(!/^Baerer$/i.test(scheme))
+    if(!/^Bearer$/i.test(scheme))
         return res.status(401).send({ error: 'Token malformated'})
 
     jwt.verify(token, authConfig.secret, (error, decoded) => {
-        if(error) return res.status(401).sen({ error: 'Token invalid'})
+        if(error) return res.status(401).send({ error: 'Token invalid'})
 
         req.userId = decoded.userId
 
