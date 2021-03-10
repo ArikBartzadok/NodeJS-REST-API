@@ -34,6 +34,11 @@ $ nodemon src/index.js
 - Create the auth controller to register users in database
 - Create system to encrypt the password, and manually disable the return of password in the request
 - Create system to generate, authenticate and treat JWT
+- Reorganize the project's directory structure
+- Create module to recover password, including in the user model
+- Recovering passwords with mailtrap
+- Bug fixed in nodemailer and mailtrap <<< Error: Missing credentials for "PLAIN"
+- Create route to reset password and authenticate token
 
 ## Author
 

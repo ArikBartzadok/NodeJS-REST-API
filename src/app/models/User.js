@@ -1,4 +1,4 @@
-const mongoose = require('../database')
+const mongoose = require('../../database')
 const bcrypt = require('bcryptjs')
 const Scheema = mongoose.Schema
 
@@ -16,6 +16,14 @@ const UserSchema = new Scheema({
     password: {
         type: String,
         require: true,
+        select: false
+    },
+    passwordResetToken: {
+        type: String,
+        select: false
+    },
+    passwordResetExpires: {
+        type: Date,
         select: false
     },
     createdAt: {
