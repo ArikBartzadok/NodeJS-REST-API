@@ -39,6 +39,9 @@ $ nodemon src/index.js
 - Recovering passwords with mailtrap
 - Bug fixed in nodemailer and mailtrap <<< Error: Missing credentials for "PLAIN"
 - Create route to reset password and authenticate token
+- Bug fixed in decoded token
+- Create routes to 'POST, GET, PUT and DELETE' projects
+- Creating model relationships (Users, Pojects and Taks)
 
 ## Author
 
